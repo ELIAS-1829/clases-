@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="esti.css">
+    <meta charset="UTF-8">
+    <title>Título de la página</title>
+<style>
+  *{
+      margin: 0px;
+      padding: 2px;
+      background-image : url("elias.jpg");
+  }
+  footer{
+      padding: 7px ;
+      margin: 7px;
+      background: black;
+      color: gray;
+        border-radius: 1000px; 
+      text-align: center;
+  }  
+  p{
+  padding: 10px;
+  background: gray;
+  width: 310px;  
+  color: blue;
+  text-align: center;
+  }
+  a{
+   text-decoration: none;
+   color: gray;
+   background: black;
+   border-radius: 1000px;
+   padding: 5px;
+  }
+ .video{
+     padding: 0px;
+     margin: 0px;
+     width="320"
+      height="40"
+ }
+</style>
+</head>
+
+<body>
+    <p>primer clase </p>
+   <section>
+    
+   </section>
+   <div class="menu">
+      <a href="#" onclick="cambiarVideo('video.mp4')">Video 1</a>
+      <a href="#" onclick="cambiarVideo('fondo.mp4')">Video 2</a>
+      
+    </div>
+    <div class="video">
+      <video id="video" width="328" height="300" controls>
+        <source id="videoSource" src="video.mp4" type="video/mp4">
+       
+      </video>
+    </div>
+    <script>
+      function cambiarVideo(src) {
+        document.getElementById("videoSource").src = src;
+        document.getElementById("video").load();
+      }
+    </script>
+    
+     </video>
+    <footer><a style="padding: text-align: center;;" href="elias.apk">Ver codigos del scrit</a></footer>
+
+  <footer><a style="padding: text-align: center;;" href="elias.apk">descargar el archivi del proyecto </a></footer>
+  <br>
+ <br>
+ <br> 
+<p>Segunda clase</p> 
+  <video width="330" height="350" controls>        <source src="video.mp4" type="video/mp4">      <source src="video.ogg" type="video/ogg">          
+     </video>
+    <footer><a style="padding: text-align: center;;" href="elias.apk">Ver codigos del scrit</a></footer>
+
+  <footer><a style="padding: text-align: center;;" href="elias.apk">descargar el archivi del proyecto </a></footer> 
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>                                <html>
+  <head>                                           <title>Menu con videos</title>
+    <style>
+   .menu {
+ overflow: hidden;                            
+ }            
+   
+   .menu a {
+        background-image:url("fondo.mp4") ;
+        color: gray;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px;
+      }
+      .menu a:hover {
+        background-color: #pink;
+        color: black;
+        text-align: center;
+      }
+      
+      >
+    </style>
+  </head>
+  <body>
+    
+  </body>
+</html>
